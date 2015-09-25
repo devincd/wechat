@@ -1,8 +1,8 @@
 <?php 
-namespace Admin\Controller;
+namespace Home\Controller;
 use Think\Controller;
 define("TOKEN","weixin");
-class ZhenMiWeChatController extends Controller {
+class WechatController extends Controller {
     
     protected $User;     //微信用户对象  
     /*微信入口

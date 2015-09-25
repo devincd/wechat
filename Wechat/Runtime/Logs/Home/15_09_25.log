@@ -18,3 +18,55 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
 
+[ 2015-09-25T16:11:23+08:00 ] ::1 /wechat/index.php/Home/Wechat/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006968s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2015-09-25T16:11:48+08:00 ] ::1 /wechat/index.php/Home/Wechat/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2015-09-25T16:11:50+08:00 ] ::1 /wechat/index.php/Home/Wechat/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2015-09-25T16:12:09+08:00 ] ::1 /wechat/index.php/Home/Wechat/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2015-09-25T16:12:26+08:00 ] ::1 /wechat/index.php/Home/Wechat/wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given F:\wamp\www\wechat\Wechat\Common\Common\function.php 第 17 行.
+NOTIC: [8] Undefined index: echostr F:\wamp\www\wechat\Wechat\Home\Controller\WechatController.class.php 第 14 行.
+NOTIC: [8] Undefined index: signature F:\wamp\www\wechat\Wechat\Home\Controller\WechatController.class.php 第 68 行.
+NOTIC: [8] Undefined index: timestamp F:\wamp\www\wechat\Wechat\Home\Controller\WechatController.class.php 第 69 行.
+NOTIC: [8] Undefined index: nonce F:\wamp\www\wechat\Wechat\Home\Controller\WechatController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021924s ]
+
