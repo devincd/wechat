@@ -17,7 +17,7 @@ $menu_config = '{
            {    
                "type":"view",
                "name":"我的任务",
-               "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx66808704f67b0f0a&redirect_uri=http://graymis.51yche.com/ZhenMiWeChat/my_task&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+               "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx66808704f67b0f0a&redirect_uri=http://mi.ai.la/Wechat/my_task&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
             },
             {
                "type":"view",

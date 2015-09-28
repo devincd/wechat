@@ -10,7 +10,7 @@
  */
 function DLOG($log_content='', $log_level='', $log_name='')
 { 
-
+    echo "start!";
 	if(empty($log_level)||empty($log_content))
 		return;
 	
@@ -23,7 +23,8 @@ function DLOG($log_content='', $log_level='', $log_name='')
 
 	$log_dir = C('DLOG_DIR');
 	$log_file = $log_dir.$log_name.".".date('Y-m-d').".log";
-	
+    
+    echo $log_file;
     //默认每行日志必写的内容，统一在这里处理
     // ZHANGXI 2015/1/7 for regular
     $time = sprintf("%8s.%03d",date('H:i:s'),floor(microtime()*1000));
