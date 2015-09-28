@@ -2,6 +2,9 @@
 namespace Home\Controller;
 use Think\Controller;
 define("TOKEN","weixin");
+/*
+ *微信的入口文件
+ */
 class WechatController extends Controller {
     
     protected $User;     //微信用户对象 
