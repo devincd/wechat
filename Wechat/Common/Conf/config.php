@@ -12,11 +12,11 @@ return array(
 
        //(3)数据库的配置
        "DB_TYPE"       => "mysqli",
-       "DB_HOST"       => "218.249.74.252", //设置的为212的外网的IP地址
-       "DB_NAME"       => "beta_zhenmi",
-       "DB_USER"       => "dev_user",
-       "DB_PWD"        => "mHNx2Em0r3R7hdFv",
-       "DB_PORT"       => "3306",
+       "DB_HOST"       => "", //设置的为212的外网的IP地址
+       "DB_NAME"       => "",
+       "DB_USER"       => "",
+       "DB_PWD"        => "",
+       "DB_PORT"       => "",
        "DB_PREFIX"     => "t_",
        "DB_CHARSET"    => "utf8mb4"
 
